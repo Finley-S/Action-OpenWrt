@@ -16,5 +16,5 @@ sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_genera
 #添加额外非必须软件包
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
-git clone https://github.com/fw876/helloworld.git package/helloworld
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
+# git clone https://github.com/fw876/helloworld.git package/helloworld
+# git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
